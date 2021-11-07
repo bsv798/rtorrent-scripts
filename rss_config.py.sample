@@ -1,0 +1,19 @@
+rss_list_config = [
+    {
+        'name': 'first',
+        'url': 'https://acme.com/rss.php?feed=dl&cat=2,1',
+        'dir': '~/torrent/.torrent/first',
+        'filters': [
+            '.*',
+        ]
+    },
+    {
+        'name': 'second',
+        'url': 'https://acme.net/rss.php?feed=dl&cat=56,51,53',
+        'dir': '~/torrent/.torrent/second',
+        'filters': [
+            '.*second1',
+            '.*second2',
+        ]
+    },
+]
